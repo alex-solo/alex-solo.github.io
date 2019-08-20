@@ -285,6 +285,23 @@ button:hover {
 	background-color: #8ee4af;
 }
 
+#projects h3 {
+	margin-top: 25px;
+}
+
+.image-wrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#projects img {
+	width: auto;
+	max-height: 136px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
 .service-desc {
 	margin-bottom: 40px;
 }
