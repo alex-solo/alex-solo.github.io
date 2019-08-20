@@ -144,10 +144,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: #608dfd;
+	border-color: #8ee4af;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-	background-color: #608dfd;
+	background-color: #8ee4af;
 }
 .section-title {
 	margin-bottom: 0px;
