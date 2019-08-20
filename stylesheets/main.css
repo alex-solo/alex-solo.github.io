@@ -254,11 +254,26 @@ a.github {
 	margin-top: -30px;
 }
 
+#crato-section .crato-deploy img {
+	max-width: 100%;
+	margin-top: 35px;
+	margin-bottom: 90px;
+}
+
+#crato-left {
+	margin-right: 8%;
+}
+
 #crato-section .about-text p {
 	color: #1e4470;
 	margin-top: 60px;
 	text-align: left;
 	margin: 30px 0;
+}
+
+.softened {
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
 }
 
 button {
