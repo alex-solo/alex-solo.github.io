@@ -218,7 +218,7 @@ a #crato {
 
 #crato-section img {
 	max-width: 65%;
-	margin-left: 11%;
+	margin: 0 auto;
 }
 
 #crato-section .about-text p {
