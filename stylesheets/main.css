@@ -144,10 +144,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: #8ee4af;
+	border-color: #608dfd;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-	background-color: #8ee4af;
+	background-color: #608dfd;
 }
 .section-title {
 	margin-bottom: 0px;
@@ -379,12 +379,6 @@ button:hover {
 #footer p {
 	color: #888;
 	font-size: 14px;
-}
-#footer a {
-	color: #608dfd;
-}
-#footer a:hover {
-	border-bottom: 2px solid #608dfd;
 }
 
 @media (max-width: 768px) {
