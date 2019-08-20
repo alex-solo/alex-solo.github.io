@@ -42,6 +42,7 @@ h5 {
 }
 p {
 	font-size: 20px;
+	line-height: 28px;
 }
 
 a {
@@ -83,10 +84,10 @@ hr {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-	font-family: "Raleway", sans-serif;
-	font-size: 24px;
-	font-weight: 700;
-	color: #333;
+	font-family: "Hind", "Raleway", sans-serif;
+	font-size: 28px;
+	font-weight: 500;
+	color: #555;
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -112,7 +113,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #fff 0%, #8ee4af 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -133,7 +134,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #8ee4af 0%, #8ee4af 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -210,8 +211,37 @@ a #crato {
 /* Crato Section */
 
 #crato-section {
-	padding: 100px 0;
+	padding-top: 70px;
+	padding-bottom: 90px;
 	background-color: #edf5e1;
+}
+
+#crato-section img {
+	max-width: 65%;
+	margin-left: 11%;
+}
+
+#crato-section .about-text p {
+	margin-top: 60px;
+	text-align: left;
+	margin: 30px 0;
+}
+
+button {
+	padding: 16px 32px;
+	color: #1e4470;
+	font-weight: 500 !important;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 2px solid #1e4470;
+	margin-top: 45px;
+}
+
+button:hover {
+	color: #edf5e1;
+	background-color: #1e4470;
 }
 
 /* Other projects Section */
@@ -276,6 +306,10 @@ a.github {
 @media (max-width: 768px) {
 	#main-section .about-text {
 		margin-top: 50px;
+	}
+
+	#crato-section .about-text {
+		margin-top: 20px;
 	}
 	#main-section img {
 		margin: 5px 0;
