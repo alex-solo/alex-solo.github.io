@@ -4,8 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Alex Soloviev</title>
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta
+      name="description"
+      content="Alex Soloviev is a software developer in Toronto building secure government systems in Java, TypeScript, and Azure."
+    />
+    <meta name="author" content="Alex Soloviev" />
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" />
@@ -62,14 +65,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="https://crato-logging.github.io/" id="crato">Crato</a>
-            </li>
-            <li><a href="#crato-section" class="page-scroll">Projects</a></li>
+            <li><a href="#projects" class="page-scroll">Work</a></li>
+            <li><a href="#crato-section" class="page-scroll">Crato</a></li>
             <li><a href="#about-me" class="page-scroll">About Me</a></li>
-            <li>
-              <a href="/resume/asoloviev.pdf">Resume</a>
-            </li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -91,13 +89,15 @@
             <div class="about-text">
               <h2 id="name">Hello, I'm Alex.</h2>
               <p>
-                I am a software engineer based in Toronto.
+                I'm a software developer based in Toronto. For the past seven
+                years I've been building secure government systems, from
+                wildfire emergency response in the Yukon to public services
+                used by millions of Canadians.
               </p>
               <p>
-                I am a co-creator and software engineer of
-                <a href="https://crato-logging.github.io/">Crato</a> — an
-                open-source framework for small applications to easily deploy a
-                centralized logging solution.
+                These days I work on the replacement of Canada's national
+                Social Insurance Registry, where I focus on the backend: Java
+                and Spring Boot, and the Azure infrastructure underneath.
               </p>
               <div id="social">
                 <a class="email" href="mailto:alex.soloviev@gmail.com"></a>
@@ -117,13 +117,82 @@
         </div>
       </div>
     </div>
+    <!-- Selected Work Section -->
+    <div id="projects" class="text-center">
+      <div class="container">
+        <div class="section-title">
+          <h2>Work</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-desc">
+              <div class="image-wrapper">
+                <img
+                  src="images/sin-card.jpg"
+                  alt="A hand holding a Canadian Social Insurance Number card"
+                />
+              </div>
+              <h3>Social Insurance Registry</h3>
+              <p>
+                I work on the backend of the replacement of Canada's Social
+                Insurance Number registry. Decades of legacy behaviour have to
+                move to a new platform without anyone noticing, and privacy
+                has to hold at every step.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-desc">
+              <div class="image-wrapper">
+                <a
+                  href="https://estimateursv-oasestimator.service.canada.ca/en"
+                  target="_blank"
+                >
+                  <img
+                    src="images/oas-overview.jpg"
+                    alt="Illustration of a senior couple estimating benefits at a computer"
+                  />
+                </a>
+              </div>
+              <h3>Old Age Benefits Estimator</h3>
+              <p>
+                A
+                <a
+                  href="https://estimateursv-oasestimator.service.canada.ca/en"
+                  target="_blank"
+                  >canada.ca tool</a
+                >
+                that helps seniors estimate their retirement benefits. I built
+                much of the calculation engine, including the scenario
+                modelling that lets users compare what they'd receive at
+                different retirement ages and life milestones.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-desc">
+              <div class="image-wrapper">
+                <img
+                  src="images/yukon-fire-zones.png"
+                  alt="Yukon fire management zone map and dashboard"
+                />
+              </div>
+              <h3>Wildfire Preparedness Level</h3>
+              <p>
+                The application Yukon's emergency managers used through
+                wildfire season to decide how to stage crews and equipment,
+                when to request outside support, and when to escalate public
+                alerting.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Crato Section -->
     <div id="crato-section" class="text-center">
       <div class="container">
-        <div class="section-title">
-          <h2></h2>
-          <p></p>
-        </div>
         <div class="row">
           <div id="crato-left" class="col-xs-12 col-md-7 crato-deploy">
             <img
@@ -141,7 +210,7 @@
             <div class="about-text">
               <p>
                 Crato is an open-source, easy to deploy logging framework that
-                maintains ownership of data.
+                maintains ownership of data. I co-created it in 2019.
               </p>
               <p>
                 Crato is built using Node.js, Apache Kafka and is deployed using
@@ -157,65 +226,6 @@
         </div>
       </div>
     </div>
-    <!-- Other Projects Section -->
-    <div id="projects" class="text-center">
-      <div class="container">
-        <div class="section-title">
-          <h2>Other Projects</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4">
-            <i class="fa fa-language"></i>
-            <div class="service-desc">
-              <div class="image-wrapper">
-                <img
-                  src="images/airline_app.png"
-                  alt="Screenshot of Airline app"
-                />
-              </div>
-              <h3>Airline Routes</h3>
-              <p>
-                An application that allows users to view and filter airline
-                routes on a clickable svg map. Bootstrapped with Create React
-                App.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <i class="fa fa-plane"></i>
-            <div class="service-desc">
-              <div class="image-wrapper">
-                <img src="images/postit.png" alt="Screenshot of Postit app" />
-              </div>
-              <h3>PostIt App</h3>
-              <p>
-                A Reddit-like web application built with Rails and PostgreSQL
-                which allows authenticated users to create, comment, upvote or
-                downvote posts and comments.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <i class="fa fa-pie-chart"></i>
-            <div class="service-desc">
-              <div class="image-wrapper">
-                <img
-                  src="images/trellyo.png"
-                  alt="Screenshot of Trello-like app"
-                />
-              </div>
-              <h3>Trelly-O</h3>
-              <p>
-                A project management tool based on Trello, built with Rails and
-                React, that allows users to create, delete, update, archive and
-                reorganize cards and boards.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- About Me Section -->
     <div id="about-me" class="text-center">
       <div class="container">
@@ -224,19 +234,17 @@
             <div class="about-text">
               <h2>About me</h2>
               <p>
-                I am a full-stack software developer based in Toronto with
-                several years of experience with JavaScript, Ruby, React, and
-                Ruby on Rails. I have experience in containerized deployment,
-                data pipelines, cloud platforms, and both SQL and NoSQL
-                databases. Most recently I am co-creator of
-                <a href="https://crato-logging.github.io/">Crato</a>, a
-                centralized logging framework built with NodeJS, Kafka, InfluxDB
-                and deployed using Docker.
+                I've been at Service Canada since 2021, working on systems
+                like the Social Insurance Registry replacement and the Old Age
+                Benefits Estimator. Before that I built emergency-management
+                software for the Government of Yukon, where I'd first spent a
+                few seasons as a wildland firefighter.
               </p>
-
-              <a href="/resume/asoloviev.pdf" target="_blank">
-                <button>Resume</button>
-              </a>
+              <p>
+                Day to day I work in Java and Spring Boot on Azure, with
+                TypeScript and React when a project calls for it. Security and
+                privacy run through most of what I build.
+              </p>
             </div>
           </div>
 
@@ -246,6 +254,7 @@
                 <h2 id="about-me-name">Alex Soloviev</h2>
 
                 <h3>Toronto, ON</h3>
+                <p>English &nbsp;·&nbsp; Russian &nbsp;·&nbsp; Portuguese</p>
                 <h2>Connect with me</h2>
                 <p>
                   <a href="mailto:alex.soloviev@gmail.com"
@@ -274,17 +283,13 @@
     <div id="footer">
       <div class="container text-center">
         <p>
-          Alex Soloviev &nbsp;•&nbsp; 2019
+          © Alex Soloviev
         </p>
       </div>
     </div>
 
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-
-    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
